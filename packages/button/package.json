@@ -3,9 +3,6 @@
   "version": "1.0.0",
   "main": "lib/index.js",
   "module": "src/index.js",
-  "scripts": {
-    "bootstrap": "lerna bootstrap --use-workspaces"
-  },
   "dependencies": {
     "react": "16.8.5",
     "react-dom": "16.8.5",
