@@ -11,10 +11,10 @@ yarn-error.log*
 .npm
 
 # Dependency directories
-/node_modules
-/jspm_packages
-/bower_components
-/lib
+node_modules
+jspm_packages
+bower_components
+lib
 
 # Yarn Integrity file
 .yarn-integrity
@@ -100,3 +100,4 @@ tests/cobertura.xml
 cobertura.xml
 tests.xml
 .jest-*
+__snapshots__
