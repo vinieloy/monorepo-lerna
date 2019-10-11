@@ -41,11 +41,9 @@ const StyledInput = styled.input`
     `}
 `;
 
-const Input = ({disabled, id, label, placeholder}) => (
+const Input = ({ disabled, id, label, placeholder }) => (
   <StyledContainer>
-    {label &&
-      <StyledLabel htmlFor={id}>{label}</StyledLabel>
-    }
+    {label && <StyledLabel htmlFor={id}>{label}</StyledLabel>}
     <StyledInput disabled={disabled} id={id} placeholder={placeholder} type="text" />
   </StyledContainer>
 );
